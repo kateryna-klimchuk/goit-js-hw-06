@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* ---- for 3-d task ----- */
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

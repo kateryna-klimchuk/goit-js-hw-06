@@ -7,7 +7,7 @@ const ingredients = [
   'Condiments',
 ];
 
-const ingredientsEl = document.querySelector('#ingredients')
+const ingredientsEl = document.querySelector('#ingredients');
 
 const createListItem = options => {
 
@@ -15,7 +15,7 @@ const createListItem = options => {
     const element = document.createElement('li');
     element.classList.add('item');
     element.textContent = option;
-    
+
     return element;
   })
 };
