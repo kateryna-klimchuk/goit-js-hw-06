@@ -12,8 +12,7 @@ const onSubmitForm = (event) => {
     return alert('Please, fill all fields!');
     }
 
-    console.log(`client:
-    email: ${email.value}, password: ${password.value}`);
+    console.log(`{email: ${email.value}, password: ${password.value}}`);
     event.currentTarget.reset();
 }
 

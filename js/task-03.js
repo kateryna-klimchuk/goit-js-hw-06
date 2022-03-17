@@ -19,7 +19,7 @@ const imagesEl = document.querySelector('.gallery');
 
 const makeGallaryMarkup = images.map(({url, alt}) => 
   `<li class="gallary-item">
-  <img src=${url} alt=${alt} width=600>
+  <img src= ${url} alt= ${alt} width=300>
   </li>`).join('');
 
 
